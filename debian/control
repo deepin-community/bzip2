@@ -1,6 +1,6 @@
 Source: bzip2
-Maintainer: Deepin Developer <deepin-dev@deepin.org>
-Uploaders: Deepin Packages Builder <packages@deepin.org>
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Uploaders: Santiago Ruano Rincón <santiago@debian.org>,
            Anthony Fok <foka@debian.org>
 Section: utils
 Priority: important
@@ -9,9 +9,9 @@ Build-Depends-Indep: texinfo,
                      docbook-xml,
                      docbook2x,
                      xsltproc
-Standards-Version: 4.6.0
-#Vcs-Browser
-#Vcs-Git
+Standards-Version: 4.7.0
+Vcs-Browser: https://salsa.debian.org/debian/bzip2
+Vcs-Git: https://salsa.debian.org/debian/bzip2.git
 Homepage: https://sourceware.org/bzip2/
 
 Package: libbz2-1.0
