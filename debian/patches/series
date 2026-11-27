@@ -5,3 +5,4 @@ help-option.diff
 makefile.diff
 bzip2recover-race-open-output.diff
 40-bzdiff-l.patch
+CVE-2026-42250.patch
