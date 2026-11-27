@@ -1,3 +1,12 @@
+bzip2 (1.0.8-deepin4) unstable; urgency=medium
+
+  * fix(cve): CVE-2026-42250 (medium) - bzip2recover: Make sure to not
+    process more than BZ_MAX_HANDLED_BLOCKS   Upstream:
+    https://sourceware.org/cgit/bzip2/commit/?id=35d122a3df8b0cc4082a4d8
+    9fdc6ee99f375fe67
+
+ -- deepin-ci-robot <packages@deepin.org>  Fri, 27 Nov 2026 20:05:44 +0800
+
 bzip2 (1.0.8-deepin3) unstable; urgency=medium
 
   * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
